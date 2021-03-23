@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from xbmcswift2 import Plugin, ListItem
-from HTMLParser import HTMLParser
+from html.Parser import HTMLParser
 from collections import namedtuple
 from datetime import datetime, timedelta, tzinfo
 from language import get_string as _
